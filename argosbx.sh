@@ -1,7 +1,7 @@
 #!/bin/bash
 export LANG=en_US.UTF-8
 mkdir -p "$HOME/agsbx"
-url='https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh'
+url='https://github.com/MatrixHaven/argosbx/raw/refs/heads/main/argosbx.sh'
 case "${*##* }" in list|del|upx|ups|upa|res) ;; *)
 cmd=""
 for v in uuid vlpt vmpt vwpt hypt tupt xhpt vxpt anpt arpt sspt sopt nvpt xupt xcpt reym cdnym argo agn agk warp name oap; do
